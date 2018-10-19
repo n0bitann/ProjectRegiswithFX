@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Line?>
+
+<GridPane alignment="center" hgap="10" prefHeight="399.0" prefWidth="503.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="400.0" prefWidth="503.0">
+         <children>
+            <Button fx:id="intro" layoutX="44.0" layoutY="22.0" mnemonicParsing="false" onAction="#handleIntroComButtonClick" text="114" />
+            <Button fx:id="digi" layoutX="124.0" layoutY="23.0" mnemonicParsing="false" text="131" />
+            <Button fx:id="comPro" layoutX="44.0" layoutY="83.0" mnemonicParsing="false" text="116" />
+            <Line fx:id="introTocompro" endX="-58.19999313354492" endY="87.19999694824219" layoutX="121.0" layoutY="-5.0" startX="-58.19999313354492" startY="53.60002136230469" />
+            <Button fx:id="java" layoutX="43.0" layoutY="163.0" mnemonicParsing="false" text="217" />
+            <Button fx:id="dataStruc" layoutX="189.0" layoutY="162.0" mnemonicParsing="false" text="231" />
+            <Button fx:id="funCom" layoutX="313.0" layoutY="163.0" mnemonicParsing="false" text="132" />
+            <Button fx:id="ppl" layoutX="41.0" layoutY="227.0" mnemonicParsing="false" text="216" />
+            <Button fx:id="db" layoutX="190.0" layoutY="227.0" mnemonicParsing="false" text="221" />
+            <Button fx:id="algo" layoutX="312.0" layoutY="231.0" mnemonicParsing="false" text="232" />
+            <Line fx:id="comproTojava" endX="-2.2968826293945312" endY="42.00001525878906" layoutX="63.0" layoutY="121.0" startX="-2.2968711853027344" startY="-14.266677856445312" />
+            <Line fx:id="comproTodataStruc" endX="62.70314025878906" endY="-1.9999847412109375" layoutX="144.0" layoutY="164.0" startX="-64.59375762939453" startY="-68.50001525878906" />
+            <CubicCurve fx:id="comproToppl" controlX1="-181.40000915527344" controlX2="-181.40000915527344" controlY1="-111.66667175292969" controlY2="-64.19999694824219" endX="-149.0" endY="-12.499984741210938" fill="#1f93ff00" layoutX="190.0" layoutY="252.0" startX="-146.0" startY="-161.2666778564453" stroke="BLACK" />
+            <CubicCurve fx:id="comproTodb" controlX1="-50.0" controlX2="10.133316040039062" controlY1="-100.0" controlY2="-28.000015258789062" endX="80.70314025878906" endY="32.00001525878906" fill="#1f93ff00" layoutX="127.0" layoutY="195.0" startX="-50.00000762939453" startY="-86.99999237060547" stroke="BLACK" />
+            <Line fx:id="dataStrucToalgo" endX="71.46664428710938" endY="36.00001525878906" layoutX="263.0" layoutY="195.0" startX="-38.59373474121094" startY="-20.499984741210938" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
